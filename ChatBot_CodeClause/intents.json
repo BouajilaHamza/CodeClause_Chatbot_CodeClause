@@ -1,0 +1,33 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "contact",
+         "patterns": ["can you send me your concat details ?", "phone number", "how can i contact ?", "how cani call you ?", "phone?","emeil?","location ?","where are you ?","where can i find you ?","adress ?","mail ?","help","i need help","can you give me support ?"],
+         "responses": ["You can contact us via Email :\nLocation:\n\t 401, Shreenath Complex\nVadgaon Pune India-41\n Email:\n\tinfo@codeclause.com\n official@codeclause.com \nCall:\n\t+91 7030020973" , "you can contact us on : https://codeclause.com/Contact"],
+         "context_set": ""
+        },
+        {"tag": "identity",
+         "patterns": ["what is your job", "describe", "What is codeclause?","codeclause","what is the objective of the company?","who are you ?","can you tell me about yourself ?",""],
+         "responses": ["You can call me CodeCaluse  i am a trusted Software Development and IT Services, combining deep technical expertise and industry experience to help our clients anticipate what’s next and answer questions before they’re asked. Our offerings and proven solutions create unique competitive advantage for our clients by giving them the power to see beyond and rise above.", "I'm codeclause!", "Hey!! \nWe are a trusted Software Development and IT Services, combining deep technical expertise and industry experience to help our clients anticipate what’s next and answer questions before they’re asked. Our offerings and proven solutions create unique competitive advantage for our clients by giving them the power to see beyond and rise above"],
+         "context_set": ""
+        },
+        {"tag": "services",
+         "patterns": ["what can you provide ?", "your services ", "what do you reccommend?", "whatcan i learn ?","Can you tell me about your services ?","recommendation","Trainings","what you do ?"],
+         "responses": ["We provide Data & Analytics \nAutomation AI/ML \nInternet of Things(IoT) \nCloud Solutions"],
+         "context_set": ""
+        },
+        {"tag": "products",
+         "patterns": ["What are your products?", "products?", "is there any product recommendation ?","do you have products?","can you afford products?","is there something else other than services?","what about products?"],
+         "responses": ["We have 4 products : \nPDFSuite \nTransfy \nAttendit \nDigiCracker ","You can find our products here : https://codeclause.com/"],
+         "context_set": ""
+        }
+   ]
+}
